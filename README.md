@@ -7,7 +7,7 @@ Description
 -----------
 
 A collection of implementations of popular algorithms written in alcoholic style
-(I'm not a drunkard, but seeing the code in this repository _may_ make think you
+(I'm not a drunkard, but seeing the code in this repository _may_ make you think
 so).
 
 Installation

@@ -13,7 +13,7 @@ so).
 Installation
 ------------
 
-    git clone git@github.com:kyrylo/alcorithms.git
+    git clone https://github.com/kyrylo/alcorithms.git
 
 Synopsis
 --------

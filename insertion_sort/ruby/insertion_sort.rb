@@ -46,17 +46,18 @@ module Alcorithms
 
   def self.insertion_sort(nums)
     nums.length.pred.times do |i|
-      puts "#{ i+1 }:#{ nums }" if $DEBUG
+      puts "#{i+1}:#{nums}" if $DEBUG
       key = nums[i + 1]
 
       while i >= 0 && nums[i] > key
         nums[i + 1] = nums[i]
-        puts "  #{ nums }" if $DEBUG
+        puts "  #{nums}" if $DEBUG
         i -= 1
       end
 
       nums[i + 1] = key
     end
+    puts "  --\n  #{nums}" if $DEBUG
     nums
   end
 

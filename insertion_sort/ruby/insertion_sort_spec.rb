@@ -2,7 +2,7 @@ require 'minitest/autorun'
 require File.expand_path('../insertion_sort', __FILE__)
 
 describe Alcorithms do
-  describe "::insertion sort" do
+  describe "::insertion_sort" do
     it "sorts a sequence of numbers" do
       Alcorithms::insertion_sort([5, 2, 4, 6, 1, 3]).must_equal [1, 2, 3, 4, 5, 6]
     end

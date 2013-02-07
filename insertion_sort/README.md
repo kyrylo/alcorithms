@@ -3,6 +3,7 @@ Insertion sort
 
 ## Pseudocode
 
+    Insertion-Sort(A)
     1. for j = 2 to A.length
     2.   key = A[j]
     3.   // Insert A[j] into the sorted sequence A[1..j-1].

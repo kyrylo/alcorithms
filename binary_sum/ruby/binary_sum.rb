@@ -52,7 +52,7 @@ if __FILE__ == $0
   a = [1, 1, 1, 0, 1]
   b = [1, 1, 0, 0, 1]
   puts "Binary-Sum",
-       "  #{ a }",
-       "  #{ b }",
-       "Result: %s (%s)" % [z=Alcorithms::binary_sum(a, b), Integer(z.join(''), 2)]
+       "  Summand 1: %s" % [a],
+       "  Summand 2: %s" % [b],
+       "  Result: %s (%s)" % [z=Alcorithms::binary_sum(a, b), Integer(z.join(''), 2)]
 end
